@@ -1,0 +1,128 @@
+*{
+margin: 0;
+padding: 0;
+font-size: 16px;
+color: rgb(163, 190, 214);
+}
+nav{
+    background-color: navy;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.navbar-container{
+    color: rgb(255, 255, 149);
+    width: 500px;
+}
+.navbar-list{
+    display: flex;
+    gap: 25px;
+    text-decoration: none;
+}
+.navbar-list a{
+    text-decoration: none;
+} 
+.navbar-container li{
+    list-style: none;  
+}
+.btn{
+    background-color: darkorange;
+    border-radius: 25%;
+    height: 25px;  
+    color: black;
+      
+}
+footer{
+    background-color: rgb(18, 28, 57);
+    padding-top: 50px;
+}
+.footer-container{
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.footer-box{
+    background-color: black;
+    width: 33.3%;
+}
+h3{
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.footer-box p{
+    width: 190px;
+    margin: auto;
+    padding: 7px;
+}
+.footer-box ul{
+    list-style: none;
+    text-align: center;
+}
+.items{
+    padding: 0;
+}
+.items li{
+    text-align: center;
+    padding: 7px;
+    list-style: none;
+    width: auto;
+    position: relative;
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+}
+.fa-facebook{
+    font-size: 50px;
+}
+.fa-instagram{
+    font-size: 40px;
+}
+.fa-threads{
+    font-size: 30px;
+}
+.fa-whatsapp{
+    font-size: 20px;
+}
+.social-icons{
+    text-align: center;
+    display: inline-block;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.social-icons i{
+    color: rgb(12, 12, 150);
+    font-size: 30px;
+    
+}
+a:hover{
+    color: pink;
+}
+.social-icons i:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+.items i:hover{
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
+.bottom-bar{
+    background-color: rgb(29, 29, 29);
+    text-align: center;
+    padding: 10 0;
+    margin-top: 50px;
+}
+.bottom-bar p{
+    color: burlywood;
+    margin: 0;
+    font-size: 16px;
+    padding: 7px;
+    
+}
