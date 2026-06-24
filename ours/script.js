@@ -77,4 +77,48 @@
 // let e = d*5;
 // console.log(e)
 
- 
+//  let a = 200
+//  let b = 15
+
+//  console.log(a%b)
+
+// let a = 50;
+// a += 25;
+// console.log(a);
+
+// let x = 25;
+// x *= 4;
+// console.log(x);
+
+// let a = 5
+// a ++;
+// console.log(a)
+
+// let a = 5
+// a --;
+// console.log(a)
+
+
+// let a = 5
+// let b = 5
+// let c = a === b;
+// console.log(c)
+
+
+// let a = 10
+// let b = 9
+// let c = a != b;
+// console.log(c)
+// let a = "10"
+// let b = 10
+// let c = a !== b;
+// console.log(c)
+
+    let marks = 75;
+
+if (marks >= 40 && marks <= 100){
+    console.log("pass")
+}
+else {
+console.log("fail")
+}
