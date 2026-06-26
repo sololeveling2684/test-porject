@@ -36,7 +36,7 @@
 // // let x = 2;
 
 // function function1 () {
-// let  = 15
+//     let a = 15
 // console.log(a);
 // }
 // function function2 () {
@@ -64,7 +64,7 @@
 // function3(); 
 
 // var a = 50;
-// function funcction1() {
+// function function1() {
 //     let a = 30;
 // }
 
@@ -121,3 +121,33 @@
 // else {
 // console.log("fail")
 // }
+
+// let age = 20;
+// if (age <= 18) {
+//     console.log("you can vote.");
+// }
+// else{
+//     console.log("you can't vote.");
+// }
+
+// let age = 16;
+// if (age <= 18) {
+//     console.log("you are eligible");
+// }
+// else {
+//     console.log ("you are not eligible")
+// }
+
+let marks = 75;
+if (marks <= 80){
+    console.log("Grade A");
+}
+else if (marks <= 60) {
+    console.log("Grade B");
+}
+else if(marks <= 40) {
+    console.log("Grade C");
+}
+else {
+    console.log("fail");
+}
