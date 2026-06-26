@@ -114,11 +114,10 @@
 // let c = a !== b;
 // console.log(c)
 
-    let marks = 75;
-
-if (marks >= 40 && marks <= 100){
-    console.log("pass")
-}
-else {
-console.log("fail")
-}
+//     let marks = 75;
+// if (marks >= 40 && marks <= 100){
+//     console.log("pass")
+// }
+// else {
+// console.log("fail")
+// }
