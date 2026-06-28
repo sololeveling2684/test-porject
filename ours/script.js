@@ -115,7 +115,7 @@
 // console.log(c)
 
 //     let marks = 75;
-// if (marks >= 40 && marks <= 100){
+// if (marks >= 40 && marks >= 100){
 //     console.log("pass")
 // }
 // else {
@@ -123,7 +123,7 @@
 // }
 
 // let age = 20;
-// if (age <= 18) {
+// if (age >= 18) {
 //     console.log("you can vote.");
 // }
 // else{
@@ -131,23 +131,95 @@
 // }
 
 // let age = 16;
-// if (age <= 18) {
+// if (age >= 18) {
 //     console.log("you are eligible");
 // }
 // else {
 //     console.log ("you are not eligible")
 // }
 
-let marks = 75;
-if (marks <= 80){
+// let marks = 75;
+// if (marks >= 80){
+//     console.log("Grade A");
+// }
+// else if (marks >= 60) {
+//     console.log("Grade B");
+// }
+// else if(marks >= 40) {
+//     console.log("Grade C");
+// }
+// else {
+//     console.log("fail");
+// }
+
+// {
+// let maths_marks = 75;
+// let science_marks = 50;
+// if (maths_marks >= 80){
+//     console.log("Grade A");
+//     console.log("Very Good")
+// }
+// else if (maths_marks >= 60) {
+//     console.log("Grade B");
+//     console.log("Satisfactory")
+// }
+// else if(maths_marks >= 40) {
+//     console.log("Grade C");
+//      condole.log("Good")
+// }
+// else {
+//     console.log("fail");
+// }
+// {
+// if (science_marks >= 80){
+//     console.log("Grade A");
+//     console.log("Very Good")
+// }
+// else if (science_marks >= 60) {
+//     console.log("Grade B");
+//     console.log("Satisfactory")
+// }
+// else if(science_marks >= 40) {
+//     console.log("Grade C");
+//     console.log("Good")
+// }
+// else {
+//     console.log("fail");
+// }
+// }
+// }
+
+// let marks = 50;
+// if (marks >= 80){
+//     console.log("Grade A");
+// }
+// else if (marks >= 60) {
+//     console.log("Grade B");
+// }
+// else if(marks >= 40) {
+//     console.log("Grade C");
+// }
+// else {
+//     console.log("fail");
+// }
+
+{
+let maths_marks = 75;
+let science_marks = 50;
+
+if (maths_marks >= 80 && science_marks >= 80){
     console.log("Grade A");
+    console.log("Very Good")
 }
-else if (marks <= 60) {
+else if (maths_marks >= 60 && science_marks >= 60) {
     console.log("Grade B");
+    console.log("Satisfactory")
 }
-else if(marks <= 40) {
+else if(maths_marks >= 40 && science_marks >= 40) {
     console.log("Grade C");
+    console.log("Good")
 }
 else {
     console.log("fail");
+}
 }
