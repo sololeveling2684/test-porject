@@ -203,23 +203,56 @@
 //     console.log("fail");
 // }
 
-{
-let maths_marks = 75;
-let science_marks = 50;
+// {
+// let maths_marks = 75;
+// let science_marks = 50;
 
-if (maths_marks >= 80 && science_marks >= 80){
-    console.log("Grade A");
-    console.log("Very Good")
-}
-else if (maths_marks >= 60 && science_marks >= 60) {
-    console.log("Grade B");
-    console.log("Satisfactory")
-}
-else if(maths_marks >= 40 && science_marks >= 40) {
-    console.log("Grade C");
-    console.log("Good")
+// if (maths_marks >= 80 && science_marks >= 80){
+//     console.log("Grade A");
+//     console.log("Very Good")
+// }
+// else if (maths_marks >= 60 && science_marks >= 60) {
+//     console.log("Grade B");
+//     console.log("Satisfactory")
+// }
+// else if(maths_marks >= 40 && science_marks >= 40) {
+//     console.log("Grade C");
+//     console.log("Good")
+// }
+// else {
+//     console.log("fail");
+// }
+// }
+
+
+
+// let marks = 85;;
+// if (marks >= 40)
+//     {
+
+// if (marks >= 80){
+//     console.log("1st Division")
+// }
+// else {
+//     console.log("not first division")
+// }
+// }  
+//    else {
+//     console.log("fail")
+// }
+
+{
+let username = "hello";
+let password = "world";
+if (username === "hello"){
+    if (password === "world"){
+        console.log("login sucessful");
+    }
+    else {
+        console.log("password incorrect");
+    }
 }
 else {
-    console.log("fail");
+    console.log("Username not found");
 }
 }
