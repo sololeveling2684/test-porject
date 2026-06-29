@@ -241,33 +241,40 @@
 //     console.log("fail")
 // }
 
-{
-let username = "hello";
-let password = "world";
-if (username === "hello"){
-    if (password === "world"){
-        console.log("login sucessful");
-    }
-    else {
-        console.log("password incorrect");
-    }
-}
-else {
-    console.log("Username not found");
-}
-}
-{
-let username = "hello";
-let password = "world";
-if (username === "hello"){
-    if (password === "world"){
-        console.log("login sucessful");
-    }
-    else {
-        console.log("password incorrect");
-    }
-}
-else {
-    console.log("Username not found");
-}
-}
+// {
+// let username = "hello";
+// let password = "world";
+// if (username === "hello"){
+//     if (password === "world"){
+//         console.log("login sucessful");
+//     }
+//     else {
+//         console.log("password incorrect");
+//     }
+// }
+// else {
+//     console.log("Username not found");
+// }
+// }
+// {
+// let username = "hello";
+// let password = "world";
+// if (username === "hello"){
+//     if (password === "world"){
+//         console.log("login sucessful");
+//     }
+//     else {
+//         console.log("password incorrect");
+//     }
+// }
+// else {
+//     console.log("Username not found");
+// }
+// }
+// let num = 15;
+// let result = num % 2 === 0 ? "even" : "odd";
+// console.log(result);
+
+let num = 2;
+let value = num>= 0 ? "positive" : "negative";
+console.log(value)
