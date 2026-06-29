@@ -275,6 +275,45 @@
 // let result = num % 2 === 0 ? "even" : "odd";
 // console.log(result);
 
-let num = 2;
-let value = num>= 0 ? "positive" : "negative";
-console.log(value)
+// let num = 2;
+// let value = num>= 0 ? "positive" : "negative";
+// console.log(value)
+
+// let username = "Dipa"
+// let password = 12345
+//  if(username === "Dipa"){
+//     console.log("username found")
+// }
+// else {
+//     console.log("invalid username")
+// }
+// if (password = 12345){
+//     console.log("log in sucessful")
+// }
+// else {
+//     console.log("incorrect password")
+// }
+
+// let username = "Dipa"
+// let password = 12345
+//  if(username === "Dipa" && password === 12345){
+//     console.log("username found")
+// }
+// else {
+//     console.log("invalid username")
+// }
+
+
+// let amount = 1500;
+// if (amount >= 1000){
+//     console.log("discount granted")
+// }
+// else{
+    
+// }
+
+// (amount >= 1000)?"discount granted":"discount only availabe after 1000";
+
+
+
+ document.getElementById("age").innerHtml = (`his age is ${age}`);  

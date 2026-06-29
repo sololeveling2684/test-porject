@@ -1,21 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <title>Username Prompt</title>
 </head>
 <body>
+  <button onclick="askUsername()">Enter Username</button>
 
+  <script>
+    function askUsername() {
+      // Show a pop-up asking for username
+      let username = prompt("Please enter your username:");
 
-    <!-- <p id="name"></p>
-    <p id="age"></p>
-    <p id="gender"></p> -->
-
-    <p id="a"></p>
-    <p id="b"></p>
-    <script src="script.js">
-    </script>
-    
+      // If user entered something, show it in an alert
+      if (username) {
+        alert("Hello, " + username + "!");
+      } else {
+        alert("No username entered.");
+      }
+    }
+  </script>
 </body>
 </html>
