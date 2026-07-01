@@ -316,4 +316,17 @@
 
 
 
- document.getElementById("age").innerHtml = (`his age is ${age}`);  
+//  document.getElementById("age").innerHtml = (`his age is ${age}`);  
+
+
+    function askUsername() {
+      // Show a pop-up asking for username
+      let username = prompt("Please enter your username:");
+
+      // If user entered something, show it in an alert
+      if (username) {
+        alert("Hello, " + username );
+      } else {
+        alert("No username entered.");
+      }
+    }
