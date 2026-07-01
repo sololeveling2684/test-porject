@@ -319,14 +319,36 @@
 //  document.getElementById("age").innerHtml = (`his age is ${age}`);  
 
 
-    function askUsername() {
-      // Show a pop-up asking for username
-      let username = prompt("Please enter your username:");
+    // function askUsername() {
+    //   // Show a pop-up asking for username
+    //   let username = prompt("Please enter your username:");
 
-      // If user entered something, show it in an alert
-      if (username) {
-        alert("Hello, " + username );
-      } else {
-        alert("No username entered.");
-      }
+    //   // If user entered something, show it in an alert
+    //   if (username) {
+    //     alert("Hello, " + username );
+    //   } else {
+    //     alert("No username entered.");
+    //   }
+    // }
+
+
+
+    //odd and even in html
+// function checkNumber() {
+//     let numberInput = document.getElementById("numberInput").value;
+//     if (numberInput % 2 === 0) {
+//         document.getElementById("result").innerHTML = "even";
+//     } else {
+//         document.getElementById("result").innerHTML = "odd";
+//     }   
+// }
+
+
+function checkNumber() {
+    let numberInput = document.getElementById("numberInput").value;
+    if (numberInput >= 0) {
+        document.getElementById("result").innerHTML = "positive";
+    } else {
+        document.getElementById("result").innerHTML = "negative";
     }
+}
