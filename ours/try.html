@@ -1,30 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Username Prompt</title>
 </head>
 <body>
-  <input type="number" id="numberInput" placeholder="Enter a number">
-  <p id="result"></p>
+  <button onclick="askUsername()">Enter Username</button>
 
   <script>
-    function checkNumber() {
-      let numberInput = document.getElementById("numberInput").value;
-      if (numberInput >= 0) {
-        document.getElementById("result").innerHTML = "positive";
+    function askUsername() {
+      // Show a pop-up asking for username
+      let username = prompt("Please enter your username:");
+
+      // If user entered something, show it in an alert
+      if (username) {
+        alert("Hello, " + username );
       } else {
-        document.getElementById("result").innerHTML = "negative";
+        alert("No username entered.");
       }
     }
-
-    // Listen for Enter key on the input field
-    document.getElementById("numberInput").addEventListener("keydown", function(event) {
-      if (event.key === "Enter") {
-        checkNumber();
-      }
-    });
   </script>
 </body>
 </html>
