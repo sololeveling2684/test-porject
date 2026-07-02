@@ -353,6 +353,16 @@
 //     }
 // }
 
+
+
+// function checkNumber() {
+//     let numberInput = document.getElementById("numberInput").value;
+//     if (numberInput >= 0) {
+//         document.getElementById("result").innerHTML = "positive";
+//     } else {
+//         document.getElementById("result").innerHTML = "negative";
+//     }
+// }
 day = 3;
 
 switch (day) {
