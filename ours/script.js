@@ -363,18 +363,66 @@
 //         document.getElementById("result").innerHTML = "negative";
 //     }
 // }
-day = 3;
+// day = 3;
 
-switch (day) {
-    case 1:
-        console.log("Sunday");
-        break;
-    case 2:
-        console.log("Monday");
-        break;
-    case 3:
-        console.log("Tuesday");
-        break;
-    default:
-        console.log("Invalid day");
+// switch (day) {
+//     case 1:
+//         console.log("Sunday");
+//         break;
+//     case 2:
+//         console.log("Monday");
+//         break;
+//     case 3:
+//         console.log("Tuesday");
+//         break;
+//     default:
+//         console.log("Invalid day");
+// }
+
+// for (let i = 1; i <= 5; i++) {
+//     console.log("hello world", i);
+// }
+
+// for (let i = 1; i <= 10; i++) {
+//     console.log(i);
+// }
+// for (let i = 2; i <= 10; i += 2) {
+//     console.log("even", i);
+// }
+// for (let i = 1; i <= 10; i += 2) {
+//     console.log("odd", i);
+// }
+// for (let i = 2; i <= 5; i++) {
+//     console.log(i*i);
+// }
+
+    //  let i = 5;  // start from 5
+
+    //     do {
+    //         console.log("Number: " + i);
+    //         i--;  // decrement instead of increment
+    //     } while (i >= 1);  // condition checks until 1
+    
+// for (i =10; i >= 1; i--)
+//     {
+//     console.log(i);
+// }
+// for (i = 1; i <= 10; i++){
+//     console.log(i*i);
+// }
+let arr = ["apple", "banana", "cherry"];
+for (let i = arr.length - 1; i >= 0; i--) {
+    console.log(arr[i]);
+}
+
+// for (i =10; i >= 1; i--)
+//     {
+//     console.log(i);
+// }
+// for (i = 1; i <= 10; i++){
+//     console.log(i*i);
+// }
+let arr = ["apple", "banana", "cherry"];
+for (let i = arr.length - 1; i >= 0; i--) {
+    console.log(arr[i]);
 }
