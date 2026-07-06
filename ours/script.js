@@ -410,10 +410,6 @@
 // for (i = 1; i <= 10; i++){
 //     console.log(i*i);
 // }
-let arr = ["apple", "banana", "cherry"];
-for (let i = arr.length - 1; i >= 0; i--) {
-    console.log(arr[i]);
-}
 
 // for (i =10; i >= 1; i--)
 //     {
@@ -422,7 +418,9 @@ for (let i = arr.length - 1; i >= 0; i--) {
 // for (i = 1; i <= 10; i++){
 //     console.log(i*i);
 // }
-let arr = ["apple", "banana", "cherry"];
-for (let i = arr.length - 1; i >= 0; i--) {
-    console.log(arr[i]);
+
+let i = 1;
+while (i <= 5) {
+    console.log("hello world " + i);
+    i++;
 }
