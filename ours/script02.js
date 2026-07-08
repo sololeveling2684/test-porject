@@ -57,9 +57,15 @@
 // intro("Dev", 21);
 // intro("Lucky", 22);
 
-function intro(name, surname) {
-    console.log("hello " + name + " " + surname);
+// function intro(name, surname) {
+//     console.log("hello " + name + " " + surname);
+// }
+// intro("Deepa", "Roy");
+// intro("Dev", "Shrestha");
+// intro("Lucky", "Lama");
+
+function add(a, b) {
+    return a + b;
 }
-intro("Deepa", "Roy");
-intro("Dev", "Shrestha");
-intro("Lucky", "Lama");
+let c = add(5, 6);
+console.log(c);
