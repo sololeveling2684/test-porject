@@ -30,13 +30,36 @@
 //     console.log(student);
 // }
 
+// function function1() {
+// let a = 5;
+// let b = 10;
+// let c = a + b;
+//     console.log(c);
+// }
+// function1();
 
+// function add(a, b) {
+//     console.log(a + b);
+// }
+// add(5, 6);
 
+// function intro(name) {
+//     console.log("hello " + name);
+// }
+// intro("Deepa");
+// intro("Dev");
+// intro("Lucky");
 
-function function1() {
-let a = 5;
-let b = 10;
-let c = a + b;
-    console.log(c);
+// function intro(name, age) {
+//     console.log("hello " + name + " your age is " + age);
+// }
+// intro("Deepa", 20);
+// intro("Dev", 21);
+// intro("Lucky", 22);
+
+function intro(name, surname) {
+    console.log("hello " + name + " " + surname);
 }
-function1();
+intro("Deepa", "Roy");
+intro("Dev", "Shrestha");
+intro("Lucky", "Lama");
