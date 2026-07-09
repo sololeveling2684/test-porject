@@ -64,8 +64,43 @@
 // intro("Dev", "Shrestha");
 // intro("Lucky", "Lama");
 
-function add(a, b) {
-    return a + b;
+// function add(a, b) {
+//     return a + b;
+// }
+// let c = add(5, 6);
+// console.log(c);
+
+// let result = confirm("Are you sure you want to delete this file?");
+// console.log(result);
+
+// function add(a, b) {
+//     return a + b;
+// }
+// let c = add(5, 6);
+// console.log(c);0
+
+// function sub(){
+//     let a = 10;
+//     let b = 5;
+//     console.log(a - b);
+// }
+// sub();
+
+// function sub(a, b) {
+//     console.log(a - b);
+// }
+// sub(10, 5);
+
+// function sub() {
+
+//     return a - b;
+// }
+//     let a = 10;
+//     let b = 5;
+// console.log(sub());
+
+function sub(a, b) {
+    return a - b;
 }
-let c = add(5, 6);
+let c = sub(10, 5);
 console.log(c);
