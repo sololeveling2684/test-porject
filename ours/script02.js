@@ -157,3 +157,55 @@
 //     }
 //     console.log(username("lucky"));
 
+// function result(pass, fail) {
+//     if (pass >= 40) {
+//         console.log("You have passed the exam.");
+//     }else {
+//         console.log("You have failed the exam.");
+//     }
+// }
+// console.log(result(25, 75));
+
+// function username(name, password) {
+//     if (name === "lucky") {
+//         console.log("Hello Lucky");
+//         if (password === "1234") {
+//             console.log("You are logged in");
+//         } else {
+//             console.log("Incorrect password");
+//         }
+//     } else {
+//         console.log("Incorrect username");
+//     }
+// }
+// console.log(username("lucky", "1234"));
+// console.log(username("lucky", "0000"));
+// console.log(username("someone", "1234"));
+
+// function result(name, marks) {
+
+//     if (marks >= 40) {
+//         return name + " has passed.";
+//     } else {
+//         return name + " has failed.";
+//     }
+
+// }
+
+// let student1 = result("Alex", 75);
+// let student2 = result("John", 25);
+
+// console.log(student1);
+// console.log(student2);
+
+
+function withdraw(balance, amount) {
+    if (amount <= balance) {
+        return balance - amount;
+    } else {
+        return "Insufficient balance";
+    }
+}
+
+let newBalance = withdraw(1000, 500);
+console.log(newBalance); // Output: 500
