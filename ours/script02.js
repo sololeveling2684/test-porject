@@ -99,8 +99,61 @@
 //     let b = 5;
 // console.log(sub());
 
-function sub(a, b) {
-    return a - b;
-}
-let c = sub(10, 5);
-console.log(c);
+// function sub(a, b) {
+//     return a - b;
+// }
+// let c = sub(10, 5);
+// console.log(c);
+
+// function voting(age) {
+//     if (age >= 18) {
+//         console.log("You are eligible to vote.");
+//     } else {
+//         console.log("You are not eligible to vote.");
+//     }
+// }
+// console.log(voting(20));
+// console.log(voting(15));
+
+// function username(name, password) {
+//     if (name === "lucky") {
+//         console.log("Hello Lucky");
+//         if (password === "1234") {
+//             console.log("You are logged in");
+//         } else {
+//             console.log("Incorrect password");
+//         }
+//     } else {
+//         console.log("Incorrect username");
+//     }
+// }
+
+// // Example calls
+// username("lucky", "1234");
+// username("lucky", "0000");
+// username("someone", "1234");
+
+// function username(name, password) {
+//     if (name === "lucky") {
+//         console.log("Hello Lucky");
+//         if (password === "1234") {
+//             console.log("You are logged in");
+//         } else {
+//             console.log("Incorrect password");
+//         }
+//     } else {
+//         console.log("Incorrect username");
+//     }
+// }
+
+// console.log(username("lucky", "1234"));
+
+// function username(name) {
+//     if (name === "lucky") {
+//         console.log("Hello Lucky");
+//     }else {
+//             console.log("Incorrect username");
+//         }
+//     }
+//     console.log(username("lucky"));
+
