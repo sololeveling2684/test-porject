@@ -199,13 +199,26 @@
 // console.log(student2);
 
 
-function withdraw(balance, amount) {
-    if (amount <= balance) {
-        return balance - amount;
-    } else {
-        return "Insufficient balance";
+// function withdraw(balance, amount) {
+//     if (amount <= balance) {
+//         return balance - amount;
+//     } else {
+//         return "Insufficient balance";
+//     }
+// }
+
+// let newBalance = withdraw(1000, 500);
+// console.log(newBalance); // Output: 500
+
+const ordercheck = function(status) {
+    if (status === "pending") {
+        return "Your order is pending.";
+    }else if (status === "processing") {
+            return "Your order is being processed.";
+    }else if (status === "on the way") {
+        return "Your order is on the way.";
+    }else {
+        return "Your order has been delivered.";
     }
 }
-
-let newBalance = withdraw(1000, 500);
-console.log(newBalance); // Output: 500
+console.log(ordercheck("pending"));
