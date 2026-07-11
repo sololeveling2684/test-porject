@@ -210,15 +210,15 @@
 // let newBalance = withdraw(1000, 500);
 // console.log(newBalance); // Output: 500
 
-const ordercheck = function(status) {
-    if (status === "pending") {
-        return "Your order is pending.";
-    }else if (status === "processing") {
-            return "Your order is being processed.";
-    }else if (status === "on the way") {
-        return "Your order is on the way.";
-    }else {
-        return "Your order has been delivered.";
-    }
-}
-console.log(ordercheck("pending"));
+// const ordercheck = function(status) {
+//     if (status === "pending") {
+//         return "Your order is pending.";
+//     }else if (status === "processing") {
+//             return "Your order is being processed.";
+//     }else if (status === "on the way") {
+//         return "Your order is on the way.";
+//     }else {
+//         return "Your order has been delivered.";
+//     }
+// }
+// console.log(ordercheck("pending"));
