@@ -222,3 +222,11 @@
 //     }
 // }
 // console.log(ordercheck("pending"));
+
+const car = {
+    color: "red",
+    model: "Toyota",
+    year: 2020,
+}
+
+console.log(car.color); // Output: red
