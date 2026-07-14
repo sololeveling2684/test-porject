@@ -236,3 +236,11 @@ delete car.model;
 console.log(car.model); // Output: undefined
 car.make = "Honda";
 console.log(car.make); // Output: Honda
+
+console.log(car.color); // Output: red
+car.color = "blue";
+console.log(car.color); // Output: blue
+delete car.model;
+console.log(car.model); // Output: undefined
+car.make = "Honda";
+console.log(car.make); // Output: Honda
