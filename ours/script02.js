@@ -317,5 +317,5 @@
 // console.log(dy.getDate())
 
 
-let dy = new Date();
-console.log(dy.getDay())
+// let dy = new Date();
+// console.log(dy.getDay())
