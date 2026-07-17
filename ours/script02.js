@@ -245,3 +245,77 @@
 // car.make = "Honda";
 // console.log(car.make); // Output: Honda
 
+// const person = {
+//     name: "Lucky",
+//     greet: function() {
+//         console.log("Hello, " + this.name);
+//     }
+// }
+// person.greet(); // Output: Hello, Lucky
+
+// const car = {
+//     model_1: "Toyota",
+//     model_2: "Honda",
+//     getModels: function() {
+//         console.log("Available models: " + this.model_1);
+//         console.log("Available models: " + this.model_2);
+//     }
+// }
+// // car.getModels(); // Output: Available models: Toyota, Available models: Honda
+// car.getModels(); // Output: Available models: Toyota, Available models: Honda
+
+
+// const person = {
+//     name: "Lucky",
+//     age: 20,
+//     gender: "Male",
+// };
+
+// console.log(person);
+
+// function Bio(name, faculty,){
+//     this.name = name;
+//     this.faculty = faculty;
+// }
+// const student1 = new bio("Lucky", "BCA");
+// const student2 = new bio("Deepa", "BBS");
+
+// console.log(student1.name);
+// console.log(student2.faculty);
+
+
+// const car = {
+//     color: "red",
+//     model: "Toyota",
+//     year: 2020,
+// }
+// car.feature = "sunroof";
+// console.log(car.feature); // Output: sunroof
+
+// let today = new Date();
+// console.log(today); // Output: current date and time
+// let now = new Date();
+// console.log(now);
+// let yesterday = new Date();
+// console.log(yesterday);
+
+// let date = new Date("2026,06,06")
+// console.log(date)   Specific time
+
+// let dy = new Date();
+// console.log(dy.getFullYear()); YEAR
+
+// let dy = new Date();
+// console.log(dy.getMonth()) Month
+
+
+// let dy = new Date();
+// console.log(dy.getMonth()+1)
+
+
+// let dy = new Date();
+// console.log(dy.getDate())
+
+
+let dy = new Date();
+console.log(dy.getDay())
