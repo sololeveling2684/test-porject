@@ -319,3 +319,30 @@
 
 // let dy = new Date();
 // console.log(dy.getDay())
+// let today = new Date();
+// console.log(today); // Output: current date and time
+// let now = new Date();
+// console.log(now);
+// let yesterday = new Date();
+// console.log(yesterday);
+
+// let date = new Date("2026,06,06")
+// console.log(date)   Specific time
+
+// let dy = new Date();
+// console.log(dy.getFullYear()); YEAR
+
+// let dy = new Date();
+// console.log(dy.getMonth()) Month
+
+
+// let dy = new Date();
+// console.log(dy.getMonth()+1)
+
+
+// let dy = new Date();
+// console.log(dy.getDate())
+
+
+// let dy = new Date();
+// console.log(dy.getDay())
