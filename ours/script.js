@@ -424,3 +424,27 @@ while (i <= 5) {
     console.log("hello world " + i);
     i++;
 }
+
+// let date = new Date("2026,06,06")
+// console.log(date)   Specific time
+
+// let dy = new Date();
+// console.log(dy.getFullYear()); YEAR
+
+// let dy = new Date();
+// console.log(dy.getMonth()) Month
+
+
+// let dy = new Date();
+// console.log(dy.getMonth()+1)
+
+
+// let dy = new Date();
+// console.log(dy.getDate())
+
+
+let dy = new Date();
+console.log(dy.getDay())
+
+let dy = new Date();
+console.log(dy.getDay())
