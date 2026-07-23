@@ -419,11 +419,11 @@
 //     console.log(i*i);
 // }
 
-let i = 1;
-while (i <= 5) {
-    console.log("hello world " + i);
-    i++;
-}
+// let i = 1;
+// while (i <= 5) {
+//     console.log("hello world " + i);
+//     i++;
+// }
 
 // let date = new Date("2026,06,06")
 // console.log(date)   Specific time
@@ -443,8 +443,8 @@ while (i <= 5) {
 // console.log(dy.getDate())
 
 
-let dy = new Date();
-console.log(dy.getDay())
+// let dy = new Date();
+// console.log(dy.getDay())
 
-let dy = new Date();
-console.log(dy.getDay())
+// let dy = new Date();
+// console.log(dy.getDay())
